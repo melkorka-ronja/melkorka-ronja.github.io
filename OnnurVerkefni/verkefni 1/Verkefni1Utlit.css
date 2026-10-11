@@ -1,0 +1,16 @@
+body{border: 1px solid red; 
+    padding: 16px; 
+    margin: 32px; 
+    background-color: #404040;
+    color: white;
+    font-family: 'Calibri';}
+
+hr{color: red;}
+
+.red{color: red;}
+
+.blue{color: skyblue;}
+
+.green{color: limegreen;}
+
+.poem{font-family: 'times new roman';}

@@ -1,0 +1,124 @@
+main{
+    margin-top: 8px;
+}
+
+nav div{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-family: arial;
+    font-style: bold;
+}
+
+.navstyle{
+    font-size: 24px;
+    text-align: center;
+    color: gray;
+}
+
+.nr_verkefni{
+    background: silver;
+    text-align: right;
+}
+
+.bigtitlecenter{
+    text-align: center;
+    font-size: 64px;
+    font-family: arial;
+    color: red;
+    font-style: bold;
+}
+
+.darkgray{
+    background: rgb(71, 71, 71);
+    color: white;
+}
+
+.bigtitle{
+    font-size: 48px;
+    font-family: arial;
+    color: brown;
+    font-style: bold;
+}
+
+.blessbless{
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.grayback{
+    background-color: silver;
+    margin-top: 8px;
+}
+
+    a:link{
+        text-decoration: none; color: red;
+    }
+    a:visited{
+        color: red;
+    }
+    a:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    a:active{
+        color: black;
+    }
+
+@media screen and (min-width: 600px) {
+    .darkgray{
+        display: flex;
+        flex-direction: row;
+        background: rgb(71, 71, 71);
+        color: white;
+    }
+    nav div{
+        flex-grow: 1;
+        height: 2em;
+	    align-content: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    main{
+        margin-top: 8px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 960px) {
+    main{
+        margin-top: 8px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    h2{
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    body{
+        margin: 0 auto;
+        padding: 16px;
+        max-width: 80%;
+    }
+    main{
+        margin-top: 8px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    h2{
+        margin-top: 0px;
+    }
+}

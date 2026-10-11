@@ -1,0 +1,142 @@
+
+
+.navstyle{
+    font-size: 24px;
+    text-align: center;
+    color: gray;
+}
+
+.nr_verkefni{
+    background: silver;
+    text-align: right;
+}
+
+    a:link{
+        text-decoration: none; color: red;
+    }
+    a:visited{
+        color: red;
+    }
+    a:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    a:active{
+        color: black;
+    }
+
+.dalkar2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.dalkar3{
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.dalkar4{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section div{
+    margin: 0.5em;
+    border: 4px solid;
+    padding: 1em;
+}
+
+.bigtitle{
+    font-size: 48px;
+    font-family: arial;
+    color: brown;
+    font-style: bold;
+}
+
+.bigtitlecenter{
+    text-align: center;
+    font-size: 64px;
+    font-family: arial;
+    color: red;
+    font-style: bold;
+}
+
+.title{
+    text-align: center;
+}
+
+.fontbigger24{
+    font-size: 24px;
+}
+
+.fontbigger20{
+    font-size: 20px;
+}
+
+.fontbigger16{
+    font-size: 16px;
+}
+
+ul li{
+    margin: 4px;
+}
+
+ol li{
+    margin: 4px;
+}
+
+@media screen and (min-width: 600px) {
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dalkar3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dalkar4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dalkar3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .dalkar4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    body{
+        margin: 0 auto;
+        padding: 16px;
+        max-width: 80%;
+    }
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dalkar3{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .dalkar4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

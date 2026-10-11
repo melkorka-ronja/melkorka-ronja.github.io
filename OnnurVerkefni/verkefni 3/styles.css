@@ -1,0 +1,73 @@
+ * {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+
+.row p, .col p {
+	font-size: 1.2em;
+	height: 5em;
+	align-content: center;
+}
+
+.row{
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: center;
+}
+
+.row div{
+	flex-grow: 1;
+}
+
+.col{
+	display: flex;
+	flex-direction: column-reverse;
+	text-align: center;
+}
+
+/*Tenglar fyrir verkefni 5*/
+.navstyle{
+    font-size: 24px;
+    text-align: center;
+    color: gray;
+    font-family: "times new roman";
+}
+	a:link{
+        text-decoration: none; color: red;
+    }
+    a:visited{
+        color: red;
+    }
+    a:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    a:active{
+        color: black;
+    }
+.nr_verkefni{
+    background: silver;
+    text-align: right;
+    font-family: "times new roman";
+}

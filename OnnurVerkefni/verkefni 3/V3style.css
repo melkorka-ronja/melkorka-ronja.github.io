@@ -1,0 +1,110 @@
+body{
+    margin: 0 auto;
+    padding: 16px;
+    max-width: 80%;
+}
+
+.navstyle{
+    font-size: 24px;
+    text-align: center;
+    color: gray;
+}
+
+.nr_verkefni{
+    background: silver;
+    text-align: right;
+}
+
+    a:link{
+        text-decoration: none; color: red;
+    }
+    a:visited{
+        color: red;
+    }
+    a:hover{
+        font-style: italic;
+        font-weight: bold;
+    }
+    a:active{
+        color: black;
+    }
+
+.dalkar2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dalkar3{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.dalkar4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.dalkar31{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;  
+}
+
+.dalkar32{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;  
+}
+
+article main{
+    font-size: 24px;
+}
+
+section div{
+    margin: 0.5em;
+    border: 4px solid;
+    padding: 1em;
+}
+
+.bigtitle{
+    font-size: 48px;
+    font-family: arial;
+    color: brown;
+    font-style: bold;
+}
+
+.title{
+    text-align: center;
+}
+
+.optional{
+    color: gray;
+}
+
+.fontbigger24{
+    font-size: 24px;
+}
+
+.fontbigger20{
+    font-size: 20px;
+}
+
+.fontbigger16{
+    font-size: 16px;
+}
+
+ol li{
+    margin: 4px;
+}
+
+.blessbless{
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.mainmargin{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.grayback{
+    background-color: silver;
+}

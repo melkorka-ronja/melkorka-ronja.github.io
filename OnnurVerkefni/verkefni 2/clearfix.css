@@ -1,0 +1,26 @@
+/*
+  ========================================
+  Box-sizing
+  ========================================
+*/
+*{
+    box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  zoom: 1;
+}
